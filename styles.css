@@ -24,16 +24,52 @@ body {
             "hero-text";
 }
 
-header {
-    grid-area: header;
+/* Typography */
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 10.83px;
+    line-height: 42px;
+    text-transform: uppercase;
 }
 
+span {
+    color: #423A3A;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+    margin-top: 16px;
+}
+
+/* Header */
+header {
+    grid-area: header;
+    height: 84px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+header img {
+    height: 20.89px;
+    margin-left: 32px;
+}
+
+/* Hero Image */
 .hero-image {
     background-image: url(./images/hero-mobile.jpg);
     grid-area: hero-image;
     height: 250px;
 }
 
+/* Hero Text main content */
 .hero-text {
     grid-area: hero-text;
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+    text-align: center;
 }
