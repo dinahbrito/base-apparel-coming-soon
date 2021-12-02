@@ -73,3 +73,14 @@ header img {
     margin-right: 32px;
     text-align: center;
 }
+
+/* Email Form */
+input {
+    color:#CE9898;
+    background-color: transparent;
+    border: 1px solid #CE9898;
+    border-radius: 28px;
+    height: 48px;
+    padding-left: 24px;
+    width: 311px;
+}
