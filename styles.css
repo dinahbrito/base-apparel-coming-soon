@@ -10,7 +10,7 @@
 }
 
 html {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(150.03deg, rgb(255, 255, 255), rgb(255, 244, 244));
     background-repeat: no-repeat;
 }
@@ -61,6 +61,8 @@ header img {
 /* Hero Image */
 .hero-image {
     background-image: url(./images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     grid-area: hero-image;
     height: 250px;
 }
@@ -68,9 +70,10 @@ header img {
 /* Hero Text main content */
 .hero-text {
     grid-area: hero-text;
-    margin-top: 64px;
+    margin-bottom: 92px;
     margin-left: 32px;
     margin-right: 32px;
+    margin-top: 64px;
     text-align: center;
 }
 
@@ -78,6 +81,7 @@ header img {
 form {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 input {
