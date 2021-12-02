@@ -1,0 +1,39 @@
+/* Reset */
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    height: 100vh;
+    background: linear-gradient(150.03deg, rgb(255, 255, 255), rgb(255, 244, 244));
+    background-repeat: no-repeat;
+}
+
+body {
+    color: #CE9898;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    grid-template-areas: "header"
+            "hero-image"
+            "hero-text";
+}
+
+header {
+    grid-area: header;
+}
+
+.hero-image {
+    background-image: url(./images/hero-mobile.jpg);
+    grid-area: hero-image;
+    height: 250px;
+}
+
+.hero-text {
+    grid-area: hero-text;
+}
