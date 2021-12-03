@@ -146,8 +146,7 @@ form.error small {
         background-image: url(./images/bg-pattern-desktop.svg),linear-gradient(150.03deg, rgb(255, 255, 255), rgb(255, 244, 244));
         background-position: top left;
         background-repeat: no-repeat;
-        background-size: contain;
-
+        background-size: 830px 100% ;
     }
 
     body {
