@@ -19,6 +19,7 @@ body {
     color: #CE9898;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
+    display: grid;
     grid-template-areas: "header"
             "hero-image"
             "hero-text";
@@ -103,3 +104,58 @@ button {
     width: 64px;
     margin-left: -64px;
 }
+
+@media only screen and (min-width: 1025px) {
+    html {
+        background-image: url(./images/bg-pattern-desktop.svg),linear-gradient(150.03deg, rgb(255, 255, 255), rgb(255, 244, 244));
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    body {
+        grid-template-columns: 830px 1fr;
+        grid-template-areas: "header hero-image"
+            "hero-text hero-image";
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+    header img {
+        height: 33px;
+    }
+
+    header, .hero-text{
+        margin-left: 165px;
+    }
+
+    .hero-image {
+        background-image: url(./images/hero-desktop.jpg);
+        height: 100vh;
+    }
+    .hero-text {
+        margin-right: 220px;
+        text-align: left;
+    }
+    input, button {
+        height: 56px;
+    }
+    input {
+        width: 445px;
+    }
+
+    button {
+        width: 100px;
+        margin-left: -100px;
+    }
+}
+
