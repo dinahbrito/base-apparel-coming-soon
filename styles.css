@@ -164,9 +164,17 @@ form.error small {
         font-size: 16px;
         line-height: 28px;
     }
+    span {
+        line-height: 71px;
+    }
     
+    header {
+        margin-top: 65px;
+        height: 33px;
+    }
     header img {
         height: 33px;
+        margin-left: 0;
     }
 
     header, .hero-text{
@@ -178,8 +186,13 @@ form.error small {
         height: 100vh;
     }
     .hero-text {
+        height: 404px;
         margin-right: 220px;
+        margin-top: 80px;
         text-align: left;
+    }
+    form {
+        margin-top: 39px;
     }
     input, button {
         height: 56px;
