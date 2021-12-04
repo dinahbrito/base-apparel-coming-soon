@@ -1,1 +1,1 @@
-# base-apparel-coming-soon
+# Base Apparel coming soon page
