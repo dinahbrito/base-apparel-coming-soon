@@ -12,6 +12,10 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
+## Solution Comparison
+
+![](./images/basegif.gif)
+
 ## Link
 
 - Live Site URL: [https://dinahbrito.github.io/base-apparel-coming-soon/](https://dinahbrito.github.io/base-apparel-coming-soon/)
