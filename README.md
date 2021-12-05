@@ -1,4 +1,4 @@
-# [Frontend Mentor] - Base Apparel coming soon page solution
+# [Frontend Mentor](frontendmentor.io/) - Base Apparel coming soon page solution
 
 ![](./images/screenshot.jpg)
 
